@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+</body>
+</html>
+// sara rodrigues
+
+
+<h1>Sara Rodrigues</h1>
+ <img
+ src="https://s2.glbimg.com/MOp6sO1q5jCtgzQg5hfO19IofNc=/e.glbimg.com/og/ed/f/original/2016/11/25/moana-219.00-004.0-0040-hankfix.jpg"
+  alt="foto de Sara"
+ />
+</table>
+</try>
+<h2>sobre mim</h2>
+</try>
+ <hr>
+ <p> Me chamo Sara, tenho 16 anos sou estudante, meu passa-tempo é mexer no celular e estar com meus amigos</p>
+ <hr>
+
+ <table>
+    <tr>
+        <h2>experiencias</h2>
+    </tr>
+    <tr>
+        <li>computação e frontend</li>
+    </tr>
+</table>
+
+</table>
+<tr>
+        <h2>escolaridade</h2>
+</tr>
+<tr>
+    <li>caic, sinodal, gusmão</li>
+</tr>
+</table>
+
+</table>
+</try>
+    <h2>cursos</h2>
+    <li>indrodução de javascript e frontend</li>
+</try>
+</table>
+
+
+
+<label>Nome: <input /></label>
+<label>Email: <input /></label>
