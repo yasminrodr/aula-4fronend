@@ -1,0 +1,111 @@
+.mode-toggle {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+      }
+      
+      .icon {
+        width: 30px;
+        height: 30px;
+      }
+      
+      body.light-mode {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      
+      body.dark-mode {
+        background-color: #800080;
+      }
+      
+      body.dark-mode th,
+      body.dark-mode h1,
+      body.dark-mode h2,
+      body.dark-mode #Sobre,
+      body.dark-mode p,
+      body.dark-mode li {
+        color: #000;
+      }
+      
+      body.dark-mode h1,
+      body.dark-mode h2 {
+        color: #ff9500;
+      }
+      
+      @keyframes scaleAnimation {
+        0%, 50px {
+          transform: scale(1);
+        }
+      
+        50% {
+          transform: scale(0.8);
+        }
+      }
+      
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #8e7106;
+        border: 10px solid #000;
+      }
+      
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: scaleAnimation 2s infinite;
+      }
+      
+      img {
+        width: 100px;
+        height: 100px;
+        margin: 50px;
+      }
+      
+      #Sobre, p, li {
+        font-family: "Rajdhani", sans-serif;
+        color: #000000;
+        text-decoration: underline;
+        text-decoration-color: #b67e06;
+        font-size: 20px;
+      }
+      
+      h1, h2 {
+        font-family: "Dancing Script", cursive;
+        color: #f8fbff;
+        border: 10px double #fff;
+        padding: 10px;
+      }
+      
+      #descricao, #escolaridade, #cursos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      button[type="submit"] {
+        width: 50px;
+        height: 20px;
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .hidden {
+        display: none;
+      }
